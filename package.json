@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ".."
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base --open",
+    "build": "webpack --progress"
+  },
+  "author": "",
+  "license": "ISC"
+}
